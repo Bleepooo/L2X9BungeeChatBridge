@@ -1,0 +1,29 @@
+#L2X9ChatBridge by 254n_m
+
+#Placeholders
+#$message$ ~ The message that a player sends when they chat
+#$player$ ~ The players name
+#$tag$ ~ The discord tag of anyone who sends a message
+#The token for your bot
+token: "Your token here"
+#Prefix for commands such as >online
+CommandPrefix: ">"
+#The channel id of the chat bride channel
+ChannelID: "Your Channel ID here"
+#What the bot says its doing
+Watching: "L2X9 Chat"
+#The name of your main server
+MainServerName: "l2x9"
+#This is the delay that messages get sent to discord with (in Milliseconds)
+BlockedWords:
+  - "discord"
+  - "."
+#The list of words that wont get sent out to everyone
+MessageSendDelay: 700
+#Messages
+PlayerJoin: "> $player$ Joined"
+PlayerLeave: "> $player$ left"
+PlayerChat: "$player$ ᗒ $message$"
+#The format when someone sends a message from discord
+DiscordFormat: "[&3Discord&r&b -> $tag$]&6 $message$"
+Enable-Death-Messages: true

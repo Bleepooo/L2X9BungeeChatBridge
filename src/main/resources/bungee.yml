@@ -1,0 +1,5 @@
+name: L2X9ChatBridge
+version: ${project.version}
+main: org.l2x9.l2x9chatbridge.L2X9ChatBridge
+description: The chat bridge for l2x9
+author: 254n_m
