@@ -1,4 +1,4 @@
-#L2X9ChatBridge by 254n_m
+#L2X9ChatBridge by 254n_m & Bleepo
 
 #Placeholders
 #$message$ ~ The message that a player sends when they chat
@@ -20,10 +20,6 @@ BlockedWords:
   - "."
 #The list of words that wont get sent out to everyone
 MessageSendDelay: 700
-#Messages
-PlayerJoin: "> $player$ Joined"
-PlayerLeave: "> $player$ left"
-PlayerChat: "$player$ ᗒ $message$"
 #The format when someone sends a message from discord
 DiscordFormat: "[&3Discord&r&b -> $tag$]&6 $message$"
 Enable-Death-Messages: true
